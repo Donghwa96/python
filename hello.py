@@ -15,8 +15,9 @@
 
 height= input("피라미드의 높이 : ")
 hei = int(height)
-for k in range(1, hei):
+for k in range(1, hei+1):
     print("{}".format((hei-k)*" "), "{}".format((2*k-1)*"*"), "{}".format((hei-k)*" "))
+
 
 
 
