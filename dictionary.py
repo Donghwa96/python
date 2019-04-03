@@ -62,8 +62,9 @@ def same(a , b):
 def tuple(*x) :
     print(x)
 # x에 'one', 'two'이런식으로 넣으면 튜플 형식으로 나오는 기능
-def age(x) :
-    print('당신의 나이는 input(x)살입니다')
+def age() :
+    p = int(input("당신은 몇 살 입니까? "))
+    print('당신의 나이는 ()살입니다.format(p)')
     # 나이를 알려주는 기능
 def young(x) :
     if x > 27 :
@@ -234,6 +235,7 @@ if __name__ == "__main__":
 
 # 따로 설정할 필요 없습니다.
 # =========================================================
+age()
 dorecommend()
 partpay()
 listsum()
